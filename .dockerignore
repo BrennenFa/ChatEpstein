@@ -1,0 +1,67 @@
+# Remove excess for railway
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Databases (don't deploy local DB)
+chroma_db/
+*.db
+*.sqlite
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Documentation
+*.md
+SETUP.md
+README.md
+
+# Keys and credentials
+keys/
+
+# Frontend (don't include in backend build)
+frontend/
+
+# Scripts (only needed for data ingestion, not runtime)
+s3/
+models/
+
+# Logs
+*.log
+
+# Railway/deployment config (don't need in image)
+Procfile
+nixpacks.toml

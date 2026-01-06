@@ -1,0 +1,39 @@
+# Python
+keys/
+.env
+venv/
+data/
+rag/chroma_db/
+rag/__pycache__/
+chroma_db/
+__pycache__/
+models/*
+.claude
+
+# Next.js / Node.js
+frontend/chat-frontend/node_modules/
+frontend/chat-frontend/.next/
+frontend/chat-frontend/out/
+frontend/chat-frontend/.env*.local
+frontend/chat-frontend/.vercel
+
+VectorStore/helper-files
+
+# Dependencies
+**/node_modules/
+**/.pnp
+**/.pnp.js
+
+# Testing
+**/coverage
+
+# Production
+**/build
+**/dist
+
+# Misc
+.DS_Store
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
