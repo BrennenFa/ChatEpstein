@@ -348,7 +348,7 @@ WRONG: ❌ (Document 1, Page 1.0)
     rag_chain = retrieval_chain | qa_prompt | llm | StrOutputParser() | RunnableLambda(append_sources)
 
     message_store = {}
-    MAX_SESSIONS = 50
+    MAX_SESSIONS = 25
 
     # manage session history (limited to last 2 exchanges)
     def get_session_history(session_id: str) -> BaseChatMessageHistory:
