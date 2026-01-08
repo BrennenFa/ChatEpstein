@@ -11,7 +11,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "ChatEpstein",
+  title: "JSearch",
   description: "AI Powered Analysis of the Epstein Files.",
 };
 

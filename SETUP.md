@@ -5,7 +5,7 @@ A RAG (Retrieval-Augmented Generation) application for querying Jeffrey Epstein-
 ## Project Structure
 
 ```
-ChatEpstein/
+JSearch/
 ├── chat/                   # FastAPI backend
 │   ├── api.py             # FastAPI endpoints
 │   └── chatbot.py         # RAG chain setup

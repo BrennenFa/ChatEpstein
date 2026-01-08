@@ -14,7 +14,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-8 py-5 flex items-center justify-between">
         <div>
           <h1 className="text-3xl font-medium text-gray-900 dark:text-gray-100 tracking-tight">
-            ChatEpstein
+            JSearch
           </h1>
           <p className="text-gray-500 dark:text-gray-400 text-sm mt-0.5 font-light">
             Epstein Files Reader Powered by AI
